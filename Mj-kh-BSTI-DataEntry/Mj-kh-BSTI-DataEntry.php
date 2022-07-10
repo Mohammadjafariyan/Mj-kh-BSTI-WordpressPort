@@ -38,7 +38,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'mj_kh_bsti_admin_dashboard', '1.0.0' );
 
 /* ------------------------------------------------------------------------------------ */
-/* add_action('admin_menu','mj_kh_bsti_admin_menu_adder');
+ add_action('admin_menu','mj_kh_bsti_admin_menu_adder');
 
 
 function mj_kh_bsti_admin_menu_adder(){
@@ -48,8 +48,8 @@ function mj_kh_bsti_admin_menu_adder(){
 	  plugin_dir_path(__FILE__) . 'view.php',
 	   null, 
 	   null, 
-	   20 );
-} */
+	   120 );
+} 
 
 /* ------------------------------------------------------------------------------------ */
 
