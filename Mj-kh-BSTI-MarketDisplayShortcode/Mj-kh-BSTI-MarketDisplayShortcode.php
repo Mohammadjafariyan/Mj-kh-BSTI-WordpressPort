@@ -84,6 +84,14 @@ class MjKhBSTIShopDisplayShortCode
     // title
   //  $o .= '<h2>' . esc_html__( $id, 'mjproduct' ) . '</h2>';
     $o .= '<h2>' . get_post_meta($post->ID, 'mj_kh_bsti_product_dropdown', true) . ' </h2>';
+
+
+    /* $request = new WP_REST_Request('GET', sprintf('/wp/v2/posts/%d/terms/tag', $this->post_id));
+    $request->set_param('orderby', 'term_order');
+    $response = $this->server->dispatch($request);
+    $data = $response->get_data(); */
+
+
  
     // enclosing tags
     if ( ! is_null( $content ) ) {

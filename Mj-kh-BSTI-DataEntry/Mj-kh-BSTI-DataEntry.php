@@ -42,8 +42,8 @@ define( 'mj_kh_bsti_admin_dashboard', '1.0.0' );
 
 
 function mj_kh_bsti_admin_menu_adder(){
-	add_menu_page( 'مدیریت اطلاعات'
-	,'مدیریت اطلاعات' ,
+	add_menu_page( __('مدیریت اطلاعات','mj_kh_bsti-domain')
+	,__('مدیریت اطلاعات' ,'mj_kh_bsti-domain'),
 	 'manage_options',
 	  plugin_dir_path(__FILE__) . 'view.php',
 	   null, 
